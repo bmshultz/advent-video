@@ -1,0 +1,251 @@
+{
+  "version": "user-b-reduced-preview",
+  "status": "UNAPPROVED_REDUCTION_PREVIEW_NOT_FINAL_IMPLEMENTATION",
+  "source_version": "user-b-compact-walk-r2",
+  "original_JPEG_size": [
+    2912,
+    1440
+  ],
+  "source_registration_canvas": [
+    700,
+    1440
+  ],
+  "cell": [
+    48,
+    56
+  ],
+  "uniform_scale": 0.030456852791878174,
+  "uniform_scale_definition": "42/(1440-61),applied identically to all5poses with one affine matrix",
+  "affine_inverse_coefficients": [
+    32.833333333333336,
+    0,
+    -388.0,
+    0,
+    32.833333333333336,
+    -136.0
+  ],
+  "native_source_pivot": [
+    400,
+    1440
+  ],
+  "logical_pivot": [
+    24,
+    48
+  ],
+  "shared_last_opaque_row": 47,
+  "method": "uniform isotropic NEAREST affine resampling,no direct48x56 squeeze,no repaint,new shoes or face",
+  "static_mask_qa": [
+    {
+      "source": "idle-ORIGINAL-UNCHANGED.png",
+      "native_translation_x": 160,
+      "method": "estimated binary subject mask,neutral checker rejected;connected original person retained",
+      "source_RGB_not_repainted": true
+    },
+    {
+      "source": "look-UP-ORIGINAL-UNCHANGED.png",
+      "native_translation_x": 124,
+      "method": "estimated binary subject mask,neutral checker rejected;connected original person retained",
+      "source_RGB_not_repainted": true
+    }
+  ],
+  "frames": [
+    {
+      "number": 1,
+      "id": "walk-01",
+      "bbox_exclusive": [
+        15,
+        6,
+        32,
+        48
+      ],
+      "visible_size": [
+        17,
+        42
+      ],
+      "bottom_opaque_y": 47,
+      "pivot": [
+        24,
+        48
+      ],
+      "cell": [
+        48,
+        56
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "neutral_checker_pixels": 0,
+      "number_first_ink_y": 68,
+      "empty_native_rows_before_number": 20
+    },
+    {
+      "number": 2,
+      "id": "walk-02",
+      "bbox_exclusive": [
+        15,
+        6,
+        29,
+        48
+      ],
+      "visible_size": [
+        14,
+        42
+      ],
+      "bottom_opaque_y": 47,
+      "pivot": [
+        24,
+        48
+      ],
+      "cell": [
+        48,
+        56
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "neutral_checker_pixels": 0,
+      "number_first_ink_y": 68,
+      "empty_native_rows_before_number": 20
+    },
+    {
+      "number": 3,
+      "id": "walk-03",
+      "bbox_exclusive": [
+        15,
+        6,
+        30,
+        48
+      ],
+      "visible_size": [
+        15,
+        42
+      ],
+      "bottom_opaque_y": 47,
+      "pivot": [
+        24,
+        48
+      ],
+      "cell": [
+        48,
+        56
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "neutral_checker_pixels": 0,
+      "number_first_ink_y": 68,
+      "empty_native_rows_before_number": 20
+    },
+    {
+      "number": 4,
+      "id": "idle",
+      "bbox_exclusive": [
+        18,
+        6,
+        28,
+        48
+      ],
+      "visible_size": [
+        10,
+        42
+      ],
+      "bottom_opaque_y": 47,
+      "pivot": [
+        24,
+        48
+      ],
+      "cell": [
+        48,
+        56
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "neutral_checker_pixels": 0,
+      "number_first_ink_y": 68,
+      "empty_native_rows_before_number": 20
+    },
+    {
+      "number": 5,
+      "id": "look-UP",
+      "bbox_exclusive": [
+        17,
+        6,
+        28,
+        48
+      ],
+      "visible_size": [
+        11,
+        42
+      ],
+      "bottom_opaque_y": 47,
+      "pivot": [
+        24,
+        48
+      ],
+      "cell": [
+        48,
+        56
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "neutral_checker_pixels": 0,
+      "number_first_ink_y": 68,
+      "empty_native_rows_before_number": 20
+    }
+  ],
+  "walk_unique": 3,
+  "walk_order": [
+    1,
+    2,
+    3,
+    2
+  ],
+  "encoded_beat_ms": [
+    220,
+    220,
+    220,
+    220
+  ],
+  "loop_ms": 880,
+  "atlas": [
+    240,
+    56
+  ],
+  "native_review": [
+    240,
+    80
+  ],
+  "enlarged_review": [
+    1440,
+    480
+  ],
+  "enlargement": 6,
+  "number_gap_empty_native": 20,
+  "number_gap_display": 120,
+  "alpha": [
+    0,
+    255
+  ],
+  "prior_hashes": {
+    "assets/user-b-compact-walk-r2/walk-01-r2.png": "088fe13d5bf6be33db9c4b3774e49c0fa93f339214a345241ea11707ebaec5fe",
+    "assets/user-b-compact-walk-r2/walk-02-r2.png": "a911c9f42becf34b62703c2c6b71d815f6cda778f1eda85e8bd941f397628516",
+    "assets/user-b-compact-walk-r2/walk-03-r2.png": "ef5042d8617315ee2da071aef0a4106caa79ecaef04e1941dbe6a20a5632ac05",
+    "assets/user-b-compact-walk-r2/idle-ORIGINAL-UNCHANGED.png": "268efac72315700b596bf9e6ce7ded0a259bc2050a91ad111e9dd663ca2bb017",
+    "assets/user-b-compact-walk-r2/look-UP-ORIGINAL-UNCHANGED.png": "78b36b9583c235fb58a702950c7db1e8cd9454845222455dacf37e0b4e2e66c5"
+  },
+  "limits": [
+    "Smaller likeness loses brocade/sunglass/arm subtleties;not a redesign",
+    "Source soles were cropped;foot baseline is crop registration,not anatomical true ground",
+    "Source alpha estimated from JPEG checker;no pristine original alpha claim",
+    "Head RGB likeness source sampled,not all high-resolution head pixels can survive42px height",
+    "No original pixel grid inferred;this is an explicit proposed reduction preview",
+    "Scale/art/engine integration unapproved;GDevelop requirements unresolved"
+  ]
+}

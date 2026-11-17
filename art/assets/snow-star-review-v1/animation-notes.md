@@ -1,0 +1,1 @@
+PROPOSAL / NONFINAL. All images are single-frame static review artwork. No snow,star,scroll or camera timing authored. See handoff.md and manifest.json for layer dimensions,repeat periods,source sprite preservation and close-up alternatives. Existing character animation metadata remains3unique poses,1→2→3→2at220ms,not changed by these stills.

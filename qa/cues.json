@@ -1,0 +1,640 @@
+{
+  "status": "Measured automated draft cues; low-confidence boundaries unresolved; NOT final-media approved",
+  "source_audio": {
+    "path": "/workspace/lyric-video/audio/star-of-bethlehem-2024.ogg",
+    "sha256": "b44a5a86f02192f5589e409383429dbc334f3624ea0daa3564b9ebcc2226c933",
+    "hash_matches_builder": true,
+    "bytes": 4550618,
+    "codec": "vorbis",
+    "container": "ogg",
+    "sample_rate": 44100,
+    "channels": 2,
+    "duration": 183.212,
+    "duration_exact_seconds": 183.2119501133787,
+    "decoded_sample_count": 8079647,
+    "stream_start_time": 0.0,
+    "initial_padding": 0
+  },
+  "timebase": {
+    "unit": "seconds",
+    "origin": "Sample 0 of FFmpeg-decoded supplied OGG; no leading silence removed; no offset applied.",
+    "precision_decimals": 3,
+    "sample_rate": 44100,
+    "leading_near_silence_end": 0.983,
+    "leading_silence_method": "FFmpeg silencedetect noise=-50dB:d=0.05; threshold crossing 0.983424 s",
+    "encoder_offset": "ffprobe start_time=0 and initial_padding=0; no additional offset established or applied. Demucs output has 33 extra end samples; no time shift applied and extras excluded."
+  },
+  "method": {
+    "primary": "Section-constrained stable-ts forced alignment of unaltered approved lyric lines, repeated chorus text expanded in working copy only; small.en + medium.en faster-whisper CPU int8.",
+    "cross_checks": "Independent unprompted whole-mix small.en ASR; unprompted vocal-isolated medium.en ASR; five extracted vocal clips retranscribed with medium.en; vocal-band energy/onsets.",
+    "separation": "Demucs htdemucs, CPU, shifts=0; isolated vocals, no source replacement.",
+    "signal_analysis": "200\u20135000 Hz 3rd-order Butterworth bandpass; 441-sample (10 ms) RMS bins at 44100 Hz. CH3 onset sustained 80 ms >-35 dBFS; CH2/CH3 ends sustained 150 ms <-35 dBFS. Energy alone cannot identify words.",
+    "versions": {
+      "stable-ts": "2.19.1",
+      "faster-whisper": "1.2.1",
+      "torch": "2.15.0+cpu",
+      "torchaudio": "2.11.1+cpu",
+      "demucs": "4.1.0",
+      "av": "16.1.0",
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "soundfile": "0.14.0"
+    },
+    "ffmpeg": "7.1.5-0+deb13u1",
+    "evidence_directory": "/workspace/lyric-video/qa/work",
+    "human_listening": false,
+    "rejected_run": "Full-track forced alignment collapsed early verse into intro (19\u201322 s); rejected, not used for final cue selections."
+  },
+  "chorus_passes": 3,
+  "cue_count": 28,
+  "low_confidence_count": 13,
+  "cues": [
+    {
+      "id": "V1-L01",
+      "section": "V1",
+      "approved_text": "There are places I have been, where I never should have gone",
+      "start": 36.18,
+      "end": 41.36,
+      "confidence": "low",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 1.000 s at onset and 0.020 s at end. Low because boundary disagreement exceeds 0.300 s or first-word alignment is pinned to the analysis-window edge.",
+      "boundary_notes": "Opening start from short-clip free ASR; forced alignment incorrectly pins first word to crop edge (35.000/36.000). Weak breath/lead-in; lexical attack unresolved.",
+      "evidence": {
+        "medium_alignment_start": 35.0,
+        "medium_alignment_end": 41.36,
+        "small_alignment_start": 36.0,
+        "small_alignment_end": 41.34,
+        "onset_first_150ms_median_vocal_band_dbfs": -31.8
+      }
+    },
+    {
+      "id": "V1-L02",
+      "section": "V1",
+      "approved_text": "Darkness creeping overhead, grey clouds covering the stars",
+      "start": 41.56,
+      "end": 45.74,
+      "confidence": "low",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.340 s at onset and 0.140 s at end. Low because boundary disagreement exceeds 0.300 s or first-word alignment is pinned to the analysis-window edge.",
+      "boundary_notes": "Aligned first/last lyric-word boundary; final vowel/reverb is not guaranteed to be fully represented.",
+      "evidence": {
+        "medium_alignment_start": 41.56,
+        "medium_alignment_end": 45.74,
+        "small_alignment_start": 41.9,
+        "small_alignment_end": 45.6,
+        "onset_first_150ms_median_vocal_band_dbfs": -17.0
+      }
+    },
+    {
+      "id": "V1-L03",
+      "section": "V1",
+      "approved_text": "I can't seem to find my way, through the streets this Christmas eve",
+      "start": 46.0,
+      "end": 50.24,
+      "confidence": "medium",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.100 s at onset and 0.040 s at end. Broad phrase order corroborated by vocal ASR; no human listening validation; not a claim of \u00b180 ms accuracy.",
+      "boundary_notes": "Aligned first/last lyric-word boundary; final vowel/reverb is not guaranteed to be fully represented.",
+      "evidence": {
+        "medium_alignment_start": 46.0,
+        "medium_alignment_end": 50.24,
+        "small_alignment_start": 46.1,
+        "small_alignment_end": 50.2,
+        "onset_first_150ms_median_vocal_band_dbfs": -16.5
+      }
+    },
+    {
+      "id": "V1-L04",
+      "section": "V1",
+      "approved_text": "It's a struggle to accept, it's a struggle to believe",
+      "start": 50.42,
+      "end": 54.32,
+      "confidence": "medium",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.180 s at onset and 0.040 s at end. Broad phrase order corroborated by vocal ASR; no human listening validation; not a claim of \u00b180 ms accuracy.",
+      "boundary_notes": "Aligned first/last lyric-word boundary; final vowel/reverb is not guaranteed to be fully represented.",
+      "evidence": {
+        "medium_alignment_start": 50.42,
+        "medium_alignment_end": 54.32,
+        "small_alignment_start": 50.6,
+        "small_alignment_end": 54.36,
+        "onset_first_150ms_median_vocal_band_dbfs": -23.6
+      }
+    },
+    {
+      "id": "V1-L05",
+      "section": "V1",
+      "approved_text": "I see a pinprick in the sky, a little glowing star above",
+      "start": 54.7,
+      "end": 59.14,
+      "confidence": "medium",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.000 s at onset and 0.280 s at end. Broad phrase order corroborated by vocal ASR; no human listening validation; not a claim of \u00b180 ms accuracy.",
+      "boundary_notes": "Aligned first/last lyric-word boundary; final vowel/reverb is not guaranteed to be fully represented.",
+      "evidence": {
+        "medium_alignment_start": 54.7,
+        "medium_alignment_end": 59.14,
+        "small_alignment_start": 54.7,
+        "small_alignment_end": 58.86,
+        "onset_first_150ms_median_vocal_band_dbfs": -18.4
+      }
+    },
+    {
+      "id": "V1-L06",
+      "section": "V1",
+      "approved_text": "Then another, then another, sending inner peace and love",
+      "start": 59.4,
+      "end": 63.5,
+      "confidence": "medium",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.120 s at onset and 0.020 s at end. Broad phrase order corroborated by vocal ASR; no human listening validation; not a claim of \u00b180 ms accuracy.",
+      "boundary_notes": "Aligned first/last lyric-word boundary; final vowel/reverb is not guaranteed to be fully represented.",
+      "evidence": {
+        "medium_alignment_start": 59.4,
+        "medium_alignment_end": 63.5,
+        "small_alignment_start": 59.52,
+        "small_alignment_end": 63.48,
+        "onset_first_150ms_median_vocal_band_dbfs": -19.2
+      }
+    },
+    {
+      "id": "V1-L07",
+      "section": "V1",
+      "approved_text": "Red and green and blue and amethyst, stars display a spectrum broad",
+      "start": 63.84,
+      "end": 67.92,
+      "confidence": "medium",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.100 s at onset and 0.020 s at end. Broad phrase order corroborated by vocal ASR; no human listening validation; not a claim of \u00b180 ms accuracy.",
+      "boundary_notes": "Aligned first/last lyric-word boundary; final vowel/reverb is not guaranteed to be fully represented.",
+      "evidence": {
+        "medium_alignment_start": 63.84,
+        "medium_alignment_end": 67.92,
+        "small_alignment_start": 63.94,
+        "small_alignment_end": 67.94,
+        "onset_first_150ms_median_vocal_band_dbfs": -16.6
+      }
+    },
+    {
+      "id": "V1-L08",
+      "section": "V1",
+      "approved_text": "Then the mighty star of Bethlehem comes as an envoy of God!",
+      "start": 68.38,
+      "end": 72.84,
+      "confidence": "medium",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.020 s at onset and 0.060 s at end. Broad phrase order corroborated by vocal ASR; no human listening validation; not a claim of \u00b180 ms accuracy.",
+      "boundary_notes": "Aligned first/last lyric-word boundary; final vowel/reverb is not guaranteed to be fully represented.",
+      "evidence": {
+        "medium_alignment_start": 68.38,
+        "medium_alignment_end": 72.84,
+        "small_alignment_start": 68.4,
+        "small_alignment_end": 72.78,
+        "onset_first_150ms_median_vocal_band_dbfs": -22.0
+      }
+    },
+    {
+      "id": "CH1-L01",
+      "section": "CH1",
+      "approved_text": "Star of Bethlehem",
+      "start": 72.56,
+      "end": 78.38,
+      "confidence": "low",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.320 s at onset and 0.060 s at end. Low because harsh/sustained chorus delivery defeats reliable independent ASR and/or produces zero-duration or window-sensitive tokens.",
+      "boundary_notes": "Expanded-window alignment; zero-duration Star/of tokens make onset and held Bethlehem tail unreliable. Previous God tail may overlap.",
+      "evidence": {
+        "medium_alignment_start": 72.9,
+        "medium_alignment_end": 76.5,
+        "small_alignment_start": 73.22,
+        "small_alignment_end": 76.56,
+        "onset_first_150ms_median_vocal_band_dbfs": -14.7
+      }
+    },
+    {
+      "id": "CH1-L02",
+      "section": "CH1",
+      "approved_text": "Guide my wandering heart to Christ again!",
+      "start": 78.72,
+      "end": 80.96,
+      "confidence": "low",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.020 s at onset and 0.140 s at end. Low because harsh/sustained chorus delivery defeats reliable independent ASR and/or produces zero-duration or window-sensitive tokens.",
+      "boundary_notes": "Expanded-window alignment; tighter window ends at 81.760. Sustained again tail uncertain.",
+      "evidence": {
+        "medium_alignment_start": 78.78,
+        "medium_alignment_end": 81.76,
+        "small_alignment_start": 78.76,
+        "small_alignment_end": 81.9,
+        "onset_first_150ms_median_vocal_band_dbfs": -17.1
+      }
+    },
+    {
+      "id": "CH1-L03",
+      "section": "CH1",
+      "approved_text": "I can't comprehend, I'm so puzzled by His open hands!",
+      "start": 81.98,
+      "end": 90.58,
+      "confidence": "low",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.020 s at onset and 0.020 s at end. Low because harsh/sustained chorus delivery defeats reliable independent ASR and/or produces zero-duration or window-sensitive tokens.",
+      "boundary_notes": "Forced alignment; clip ASR starts phrase at 80.920 and full ASR at 81.300. Last hands tail meets next verse.",
+      "evidence": {
+        "medium_alignment_start": 82.0,
+        "medium_alignment_end": 90.58,
+        "small_alignment_start": 81.98,
+        "small_alignment_end": 90.6,
+        "onset_first_150ms_median_vocal_band_dbfs": -27.1
+      }
+    },
+    {
+      "id": "V2-L01",
+      "section": "V2",
+      "approved_text": "So long spent within the shadows, that tucked away the lights from space",
+      "start": 90.64,
+      "end": 94.7,
+      "confidence": "medium",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.020 s at onset and 0.120 s at end. Broad phrase order corroborated by vocal ASR; no human listening validation; not a claim of \u00b180 ms accuracy.",
+      "boundary_notes": "Aligned first/last lyric-word boundary; final vowel/reverb is not guaranteed to be fully represented.",
+      "evidence": {
+        "medium_alignment_start": 90.64,
+        "medium_alignment_end": 94.7,
+        "small_alignment_start": 90.62,
+        "small_alignment_end": 94.58,
+        "onset_first_150ms_median_vocal_band_dbfs": -17.0
+      }
+    },
+    {
+      "id": "V2-L02",
+      "section": "V2",
+      "approved_text": "As I beg the spirit Holy to guide me to the holy place",
+      "start": 94.7,
+      "end": 99.04,
+      "confidence": "low",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.340 s at onset and 0.220 s at end. Low because boundary disagreement exceeds 0.300 s or first-word alignment is pinned to the analysis-window edge.",
+      "boundary_notes": "Aligned first/last lyric-word boundary; final vowel/reverb is not guaranteed to be fully represented.",
+      "evidence": {
+        "medium_alignment_start": 94.7,
+        "medium_alignment_end": 99.04,
+        "small_alignment_start": 95.04,
+        "small_alignment_end": 98.82,
+        "onset_first_150ms_median_vocal_band_dbfs": -45.3
+      }
+    },
+    {
+      "id": "V2-L03",
+      "section": "V2",
+      "approved_text": "Where the babe lies wrapped in sackcloth,",
+      "start": 99.26,
+      "end": 101.4,
+      "confidence": "medium",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.000 s at onset and 0.060 s at end. Broad phrase order corroborated by vocal ASR; no human listening validation; not a claim of \u00b180 ms accuracy.",
+      "boundary_notes": "Aligned first/last lyric-word boundary; final vowel/reverb is not guaranteed to be fully represented.",
+      "evidence": {
+        "medium_alignment_start": 99.26,
+        "medium_alignment_end": 101.4,
+        "small_alignment_start": 99.26,
+        "small_alignment_end": 101.46,
+        "onset_first_150ms_median_vocal_band_dbfs": -18.0
+      }
+    },
+    {
+      "id": "V2-L04",
+      "section": "V2",
+      "approved_text": "Around a manger, worshippers sing!",
+      "start": 101.58,
+      "end": 103.66,
+      "confidence": "medium",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.020 s at onset and 0.060 s at end. Broad phrase order corroborated by vocal ASR; no human listening validation; not a claim of \u00b180 ms accuracy.",
+      "boundary_notes": "Aligned first/last lyric-word boundary; final vowel/reverb is not guaranteed to be fully represented.",
+      "evidence": {
+        "medium_alignment_start": 101.58,
+        "medium_alignment_end": 103.66,
+        "small_alignment_start": 101.6,
+        "small_alignment_end": 103.72,
+        "onset_first_150ms_median_vocal_band_dbfs": -19.7
+      }
+    },
+    {
+      "id": "V2-L05",
+      "section": "V2",
+      "approved_text": "If I could only see the infant, it would change so many things",
+      "start": 103.78,
+      "end": 107.76,
+      "confidence": "medium",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.020 s at onset and 0.080 s at end. Broad phrase order corroborated by vocal ASR; no human listening validation; not a claim of \u00b180 ms accuracy.",
+      "boundary_notes": "Aligned first/last lyric-word boundary; final vowel/reverb is not guaranteed to be fully represented.",
+      "evidence": {
+        "medium_alignment_start": 103.78,
+        "medium_alignment_end": 107.76,
+        "small_alignment_start": 103.8,
+        "small_alignment_end": 107.84,
+        "onset_first_150ms_median_vocal_band_dbfs": -17.3
+      }
+    },
+    {
+      "id": "BR-L01",
+      "section": "BR",
+      "approved_text": "I pray for peace tonight,",
+      "start": 108.16,
+      "end": 110.16,
+      "confidence": "medium",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.180 s at onset and 0.000 s at end. Broad phrase order corroborated by vocal ASR; no human listening validation; not a claim of \u00b180 ms accuracy.",
+      "boundary_notes": "Aligned first/last lyric-word boundary; final vowel/reverb is not guaranteed to be fully represented.",
+      "evidence": {
+        "medium_alignment_start": 108.16,
+        "medium_alignment_end": 110.16,
+        "small_alignment_start": 107.98,
+        "small_alignment_end": 110.16,
+        "onset_first_150ms_median_vocal_band_dbfs": -19.4
+      }
+    },
+    {
+      "id": "BR-L02",
+      "section": "BR",
+      "approved_text": "I pray for guiding light,",
+      "start": 110.3,
+      "end": 112.24,
+      "confidence": "medium",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.020 s at onset and 0.040 s at end. Broad phrase order corroborated by vocal ASR; no human listening validation; not a claim of \u00b180 ms accuracy.",
+      "boundary_notes": "Aligned first/last lyric-word boundary; final vowel/reverb is not guaranteed to be fully represented.",
+      "evidence": {
+        "medium_alignment_start": 110.3,
+        "medium_alignment_end": 112.24,
+        "small_alignment_start": 110.28,
+        "small_alignment_end": 112.2,
+        "onset_first_150ms_median_vocal_band_dbfs": -23.3
+      }
+    },
+    {
+      "id": "BR-L03",
+      "section": "BR",
+      "approved_text": "The star of Bethlehem appears in darkness shining bright",
+      "start": 112.38,
+      "end": 116.56,
+      "confidence": "medium",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.140 s at onset and 0.040 s at end. Broad phrase order corroborated by vocal ASR; no human listening validation; not a claim of \u00b180 ms accuracy.",
+      "boundary_notes": "Aligned first/last lyric-word boundary; final vowel/reverb is not guaranteed to be fully represented.",
+      "evidence": {
+        "medium_alignment_start": 112.38,
+        "medium_alignment_end": 116.56,
+        "small_alignment_start": 112.52,
+        "small_alignment_end": 116.52,
+        "onset_first_150ms_median_vocal_band_dbfs": -17.5
+      }
+    },
+    {
+      "id": "BR-L04",
+      "section": "BR",
+      "approved_text": "I stay with him tonight,",
+      "start": 116.7,
+      "end": 118.88,
+      "confidence": "medium",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.080 s at onset and 0.040 s at end. Broad phrase order corroborated by vocal ASR; no human listening validation; not a claim of \u00b180 ms accuracy.",
+      "boundary_notes": "Aligned first/last lyric-word boundary; final vowel/reverb is not guaranteed to be fully represented.",
+      "evidence": {
+        "medium_alignment_start": 116.7,
+        "medium_alignment_end": 118.88,
+        "small_alignment_start": 116.78,
+        "small_alignment_end": 118.92,
+        "onset_first_150ms_median_vocal_band_dbfs": -39.7
+      }
+    },
+    {
+      "id": "BR-L05",
+      "section": "BR",
+      "approved_text": "He gives me guiding light",
+      "start": 119.02,
+      "end": 120.92,
+      "confidence": "medium",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.120 s at onset and 0.100 s at end. Broad phrase order corroborated by vocal ASR; no human listening validation; not a claim of \u00b180 ms accuracy.",
+      "boundary_notes": "Aligned first/last lyric-word boundary; final vowel/reverb is not guaranteed to be fully represented.",
+      "evidence": {
+        "medium_alignment_start": 119.02,
+        "medium_alignment_end": 120.92,
+        "small_alignment_start": 119.14,
+        "small_alignment_end": 120.82,
+        "onset_first_150ms_median_vocal_band_dbfs": -19.1
+      }
+    },
+    {
+      "id": "BR-L06",
+      "section": "BR",
+      "approved_text": "The son of God has come to me just like a star tonight!",
+      "start": 121.18,
+      "end": 125.46,
+      "confidence": "low",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.060 s at onset and 0.400 s at end. Low because boundary disagreement exceeds 0.300 s or first-word alignment is pinned to the analysis-window edge.",
+      "boundary_notes": "Aligned first/last lyric-word boundary; final vowel/reverb is not guaranteed to be fully represented.",
+      "evidence": {
+        "medium_alignment_start": 121.18,
+        "medium_alignment_end": 125.46,
+        "small_alignment_start": 121.24,
+        "small_alignment_end": 125.86,
+        "onset_first_150ms_median_vocal_band_dbfs": -25.3
+      }
+    },
+    {
+      "id": "CH2-L01",
+      "section": "CH2",
+      "approved_text": "Star of Bethlehem",
+      "start": 126.32,
+      "end": 130.7,
+      "confidence": "low",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.100 s at onset and 0.200 s at end. Low because harsh/sustained chorus delivery defeats reliable independent ASR and/or produces zero-duration or window-sensitive tokens.",
+      "boundary_notes": "Start from full-vocal ASR; expanded alignment pins Star to 124.500 crop edge, while tighter alignments give 126.540\u2013126.640 with zero-duration Star. True lexical onset unresolved. End from expanded alignment; held Bethlehem tail uncertain.",
+      "evidence": {
+        "medium_alignment_start": 126.64,
+        "medium_alignment_end": 129.52,
+        "small_alignment_start": 126.54,
+        "small_alignment_end": 129.32,
+        "onset_first_150ms_median_vocal_band_dbfs": -15.1
+      }
+    },
+    {
+      "id": "CH2-L02",
+      "section": "CH2",
+      "approved_text": "Guide my wandering heart to Christ again!",
+      "start": 132.1,
+      "end": 135.26,
+      "confidence": "low",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.160 s at onset and 0.040 s at end. Low because harsh/sustained chorus delivery defeats reliable independent ASR and/or produces zero-duration or window-sensitive tokens.",
+      "boundary_notes": "Aligned first/last lyric-word boundary; final vowel/reverb is not guaranteed to be fully represented.",
+      "evidence": {
+        "medium_alignment_start": 132.1,
+        "medium_alignment_end": 135.26,
+        "small_alignment_start": 131.94,
+        "small_alignment_end": 135.3,
+        "onset_first_150ms_median_vocal_band_dbfs": -14.9
+      }
+    },
+    {
+      "id": "CH2-L03",
+      "section": "CH2",
+      "approved_text": "I can't comprehend, I'm so puzzled by His open hands!",
+      "start": 135.34,
+      "end": 144.51,
+      "confidence": "low",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.040 s at onset and 0.740 s at end. Low because harsh/sustained chorus delivery defeats reliable independent ASR and/or produces zero-duration or window-sensitive tokens.",
+      "boundary_notes": "Start from forced alignment. End is first sustained 150 ms below -35 dBFS in isolated vocal band, not diffuse reverb decay. Aligners give 144.820\u2013145.560.",
+      "evidence": {
+        "medium_alignment_start": 135.34,
+        "medium_alignment_end": 145.56,
+        "small_alignment_start": 135.3,
+        "small_alignment_end": 144.82,
+        "onset_first_150ms_median_vocal_band_dbfs": -27.0
+      }
+    },
+    {
+      "id": "CH3-L01",
+      "section": "CH3",
+      "approved_text": "Star of Bethlehem",
+      "start": 159.84,
+      "end": 164.98,
+      "confidence": "low",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.160 s at onset and 0.420 s at end. Low because harsh/sustained chorus delivery defeats reliable independent ASR and/or produces zero-duration or window-sensitive tokens.",
+      "boundary_notes": "Start from first sustained 80 ms above -35 dBFS in isolated vocal band after instrumental break. Wider alignment 159.460; tight windows miss initial Star and give 161.980\u2013162.140. End is aligned lexical tail; sustained/background vocals continue; unresolved through about 167 s.",
+      "evidence": {
+        "medium_alignment_start": 162.14,
+        "medium_alignment_end": 164.96,
+        "small_alignment_start": 161.98,
+        "small_alignment_end": 165.38,
+        "onset_first_150ms_median_vocal_band_dbfs": -16.3
+      }
+    },
+    {
+      "id": "CH3-L02",
+      "section": "CH3",
+      "approved_text": "Guide my wandering heart to Christ again!",
+      "start": 167.64,
+      "end": 170.86,
+      "confidence": "low",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.000 s at onset and 0.020 s at end. Low because harsh/sustained chorus delivery defeats reliable independent ASR and/or produces zero-duration or window-sensitive tokens.",
+      "boundary_notes": "Aligned first/last lyric-word boundary; final vowel/reverb is not guaranteed to be fully represented.",
+      "evidence": {
+        "medium_alignment_start": 167.64,
+        "medium_alignment_end": 170.86,
+        "small_alignment_start": 167.64,
+        "small_alignment_end": 170.84,
+        "onset_first_150ms_median_vocal_band_dbfs": -15.6
+      }
+    },
+    {
+      "id": "CH3-L03",
+      "section": "CH3",
+      "approved_text": "I can't comprehend, I'm so puzzled by His open hands!",
+      "start": 170.86,
+      "end": 180.14,
+      "confidence": "low",
+      "confidence_reason": "Independent small.en/medium.en constrained forced alignments differ by 0.020 s at onset and 0.460 s at end. Low because harsh/sustained chorus delivery defeats reliable independent ASR and/or produces zero-duration or window-sensitive tokens.",
+      "boundary_notes": "Start from forced alignment. End is first sustained 150 ms below -35 dBFS vocal-band threshold; aligners extend to 180.720/181.180, including weak reverb/leakage.",
+      "evidence": {
+        "medium_alignment_start": 170.86,
+        "medium_alignment_end": 180.72,
+        "small_alignment_start": 170.84,
+        "small_alignment_end": 181.18,
+        "onset_first_150ms_median_vocal_band_dbfs": -27.7
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "INTRO",
+      "start": 0.0,
+      "end": 36.18,
+      "type": "intro",
+      "confidence": "low",
+      "notes": "Includes near-silence to 0.983; possible nonlexical/vocal-like effects, not certified purely instrumental. Intro end follows provisional first lyric onset."
+    },
+    {
+      "id": "V1",
+      "start": 36.18,
+      "end": 72.84,
+      "type": "verse",
+      "confidence": "low",
+      "notes": "First onset unresolved; preceding final God may overlap chorus."
+    },
+    {
+      "id": "PRE-CH1",
+      "start": 72.56,
+      "end": 72.84,
+      "type": "overlapping_transition",
+      "confidence": "low",
+      "notes": "No demonstrated clean vocal/instrumental gap. Model intervals overlap by 0.280 s; not a negative-length gap."
+    },
+    {
+      "id": "CH1",
+      "start": 72.56,
+      "end": 90.58,
+      "type": "chorus",
+      "confidence": "low",
+      "notes": "First chorus; sustained growled lead/backing vocals; boundaries provisional."
+    },
+    {
+      "id": "V2",
+      "start": 90.64,
+      "end": 107.76,
+      "type": "verse",
+      "confidence": "medium",
+      "notes": "No measured instrumental break after chorus; short 0.060 s alignment interval is not certified silence."
+    },
+    {
+      "id": "BR",
+      "start": 108.16,
+      "end": 125.46,
+      "type": "bridge_candidate",
+      "confidence": "medium",
+      "notes": "I pray section; BR is an editorial structural label, not an audio-spoken heading. Starts differ by 0.180 s between models."
+    },
+    {
+      "id": "PRE-CH2",
+      "start": 125.46,
+      "end": 126.32,
+      "type": "uncertain_transition",
+      "confidence": "low",
+      "notes": "0.860 s between selected lyric estimates, NOT confirmed instrumental silence; vocal energy remains continuous and chorus onset is unresolved."
+    },
+    {
+      "id": "CH2",
+      "start": 126.32,
+      "end": 144.51,
+      "type": "chorus",
+      "confidence": "low",
+      "notes": "First of two closing chorus passes. Beginning may be earlier than selected estimate."
+    },
+    {
+      "id": "PRE-CH3-INSTRUMENTAL",
+      "start": 144.51,
+      "end": 159.84,
+      "type": "instrumental_interlude",
+      "confidence": "medium",
+      "notes": "15.330 s main-vocal gap. Weak reverb/leakage persists after start; do not call absolute silence."
+    },
+    {
+      "id": "CH3",
+      "start": 159.84,
+      "end": 180.14,
+      "type": "chorus",
+      "confidence": "low",
+      "notes": "Second closing chorus pass; start/end selected from vocal-band threshold; exact lyric split uncertain."
+    },
+    {
+      "id": "OUTRO",
+      "start": 180.14,
+      "end": 183.212,
+      "type": "outro_decay",
+      "confidence": "medium",
+      "notes": "Main vocal has fallen below selected threshold; reverb/music decay remains. Mix below -50 dBFS from 182.471 to EOF."
+    }
+  ],
+  "transcription_discrepancies": {
+    "confirmed": [],
+    "unconfirmed": "ASR substitutions/additions conflict across runs and are not accepted as changes to approved text. No lyrics changed."
+  },
+  "unresolved": [
+    "13 of 28 cues are low-confidence. Review these against the track by human listening before precise implementation; no final media was supplied or approved.",
+    "V1-L01: onset estimates are window-sensitive; short-clip ASR 36.180 chosen, but first strong vocal-band attack is around 37.1 s. Do not regard 36.180 as frame-accurate.",
+    "All chorus cues: distorted/sustained vocals create zero-duration tokens and inconsistent lexical boundaries. CH1-L01 tail could be later than 78.380; CH2-L01 onset could precede 126.320; CH3-L01 tail continues in vocal energy past 164.980. Forced text does not prove wording.",
+    "No clean pre-CH1 or pre-CH2 instrumental gap is established; do not schedule a star appearance from a fabricated gap.",
+    "V1-L02/V2-L02 onsets and BR-L06 tail have >0.300 s model disagreement. CH2/CH3 endings use an explicit acoustic threshold; diffuse reverb can extend beyond cue ends.",
+    "No confirmed lyric substitution/addition/deletion established. ASR produces contradictory guesses, particularly chorus text; human verification of exact words remains open.",
+    "Three chorus passes are supported by repeated phrase blocks near 72.560, 126.320 and 159.840; no additional complete repeat detected. Exact chorus wording is not independently certified.",
+    "Delivered frame rate and Brian approval of proposed final-media tolerance are still needed.",
+    "Builder could not hash-compare mounted-source OGG against original chat attachment; QA verified only the supplied shared file against builder-reported checksum."
+  ],
+  "proposed_final_media_tolerance": {
+    "status": "PROPOSED; pending Brian agreement and delivery frame rate",
+    "onset": "\u00b12 delivered-video frames (e.g. \u00b183.3 ms at 24 fps, \u00b180 ms at 25 fps, \u00b166.7 ms at 30 fps).",
+    "note": "Tolerance is a future acceptance target, not the demonstrated precision of these provisional cues. Low-confidence references must be resolved first."
+  },
+  "provenance_limitation": "The builder reported copying the mounted bot-files OGG unmodified. QA independently verified the shared copy matches the reported SHA-256; neither QA nor builder established hash identity with the original chat attachment."
+}
