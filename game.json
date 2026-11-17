@@ -1,0 +1,1748 @@
+{
+  "firstLayout": "Main",
+  "gdVersion": {
+    "build": 287,
+    "major": 5,
+    "minor": 6,
+    "revision": 0
+  },
+  "initialGDVersion": "5.6.287",
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "antialiasingMode": "none",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": true,
+    "projectUuid": "c3a1e7b2-4d58-4f0a-9b16-7e2d5a8c41f0",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "Star of Bethlehem",
+    "description": "Pixel-art lyric video starter. A GDevelop preview is not an encoded video.",
+    "author": "",
+    "windowWidth": 320,
+    "windowHeight": 180,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "showGDevelopSplash": true,
+      "gdevelopLogoStyle": "light",
+      "backgroundImageResourceName": "",
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "minDuration": 1.5,
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "showProgressBar": true,
+      "progressBarMinWidth": 40,
+      "progressBarMaxWidth": 200,
+      "progressBarWidthPercent": 30,
+      "progressBarHeight": 20,
+      "progressBarColor": 16777215
+    },
+    "watermark": {
+      "showWatermark": true,
+      "placement": "bottom-left"
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "kind": "image",
+        "name": "snow_sky_base.png",
+        "metadata": "",
+        "file": "art/assets/snow-star-review-v1/snow_sky_base.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "kind": "image",
+        "name": "snow_hills_far_tile.png",
+        "metadata": "",
+        "file": "art/assets/snow-star-review-v1/snow_hills_far_tile.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "kind": "image",
+        "name": "snow_hills_mid_tile.png",
+        "metadata": "",
+        "file": "art/assets/snow-star-review-v1/snow_hills_mid_tile.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "kind": "image",
+        "name": "snow_trees_mid_tile.png",
+        "metadata": "",
+        "file": "art/assets/snow-star-review-v1/snow_trees_mid_tile.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "kind": "image",
+        "name": "snow_path_ground_tile.png",
+        "metadata": "",
+        "file": "art/assets/snow-star-review-v1/snow_path_ground_tile.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "kind": "image",
+        "name": "snow_verse_static_overlay.png",
+        "metadata": "",
+        "file": "art/assets/snow-star-review-v1/snow_verse_static_overlay.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "kind": "image",
+        "name": "bethlehem_star_scene.png",
+        "metadata": "",
+        "file": "art/assets/snow-star-review-v1/bethlehem_star_scene.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "kind": "image",
+        "name": "snow_flake_small.png",
+        "metadata": "",
+        "file": "art/assets/snow-star-review-v1/snow_flake_small.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "kind": "image",
+        "name": "snow_flake_near.png",
+        "metadata": "",
+        "file": "art/assets/snow-star-review-v1/snow_flake_near.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "kind": "image",
+        "name": "01-walk-01-48x56.png",
+        "metadata": "",
+        "file": "art/assets/user-b-reduced-preview/01-walk-01-48x56.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "kind": "image",
+        "name": "02-walk-02-48x56.png",
+        "metadata": "",
+        "file": "art/assets/user-b-reduced-preview/02-walk-02-48x56.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "kind": "image",
+        "name": "03-walk-03-48x56.png",
+        "metadata": "",
+        "file": "art/assets/user-b-reduced-preview/03-walk-03-48x56.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "kind": "image",
+        "name": "04-idle-48x56.png",
+        "metadata": "",
+        "file": "art/assets/user-b-reduced-preview/04-idle-48x56.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "kind": "image",
+        "name": "05-look-UP-48x56.png",
+        "metadata": "",
+        "file": "art/assets/user-b-reduced-preview/05-look-UP-48x56.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "kind": "audio",
+        "name": "star-of-bethlehem-2024.ogg",
+        "metadata": "",
+        "file": "audio/star-of-bethlehem-2024.ogg",
+        "userAdded": true,
+        "preloadAsMusic": true,
+        "preloadAsSound": false,
+        "preloadInCache": false
+      },
+      {
+        "kind": "json",
+        "name": "cues",
+        "metadata": "",
+        "file": "qa/cues.json",
+        "userAdded": true,
+        "disablePreload": false
+      }
+    ]
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "name": "Main",
+      "mangledName": "Main",
+      "r": 17,
+      "v": 29,
+      "b": 53,
+      "title": "",
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "disableInputWhenNotFocused": true,
+      "renderer3DWorldScale": 100,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 2,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "WalkSpeedPxPerSec",
+          "persistentUuid": "7a048feb-522d-55eb-ab9e-9384cd3aeaed",
+          "type": "number",
+          "value": 20
+        },
+        {
+          "name": "WalkerStartX",
+          "persistentUuid": "4eb306cb-2105-5c78-ab04-e282a82d0f5a",
+          "type": "number",
+          "value": -48
+        },
+        {
+          "name": "WalkerCenterX",
+          "persistentUuid": "71902670-8575-58b1-abd5-61d3e019e4b8",
+          "type": "number",
+          "value": 136
+        },
+        {
+          "name": "TilePeriodPx",
+          "persistentUuid": "ffa29fea-0b6d-5299-ba58-c436ec5edc6a",
+          "type": "number",
+          "value": 640
+        },
+        {
+          "name": "ScrollFarPxPerSec",
+          "persistentUuid": "2fcdd0a6-7323-5745-8a19-75c25b703a65",
+          "type": "number",
+          "value": 4
+        },
+        {
+          "name": "ScrollMidPxPerSec",
+          "persistentUuid": "3f14a58b-39f5-5310-8d94-c8048a74f4b2",
+          "type": "number",
+          "value": 8
+        },
+        {
+          "name": "ScrollTreesPxPerSec",
+          "persistentUuid": "7e66613e-3bc7-5755-9cdd-bdfa125667e5",
+          "type": "number",
+          "value": 12
+        },
+        {
+          "name": "ScrollGroundPxPerSec",
+          "persistentUuid": "3111ba11-e380-57f7-a0d7-3b2b33c5cc92",
+          "type": "number",
+          "value": 20
+        },
+        {
+          "name": "SongSeconds",
+          "persistentUuid": "f8eb5554-b22c-57c6-af4c-9293b40e617c",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "ScrollSeconds",
+          "persistentUuid": "6661a576-abb4-5c14-81aa-393c2adb4fb0",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Sky",
+          "persistentUuid": "26708475-4654-516f-89b3-22a65018721d",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "HillsFar",
+          "persistentUuid": "6e81265b-4cce-5175-9920-978f9b9ad514",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "TileCopy",
+              "persistentUuid": "01ca85b7-15a1-553f-830b-fd8df6750d61",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "HillsFar",
+          "persistentUuid": "ddef2cb0-b62a-5882-919e-25aed78e97b6",
+          "width": 0,
+          "x": 640,
+          "y": 0,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "TileCopy",
+              "persistentUuid": "15d76ef1-c78c-548a-8a0c-1e08ad967093",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "HillsMid",
+          "persistentUuid": "dc8d3074-f07c-55d1-a5d0-2ec90ccf4cb5",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "TileCopy",
+              "persistentUuid": "30a5bc33-78e3-5486-8c01-0dee70f975eb",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "HillsMid",
+          "persistentUuid": "932fd180-c120-518b-a372-328be8124829",
+          "width": 0,
+          "x": 640,
+          "y": 0,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "TileCopy",
+              "persistentUuid": "a094c7cc-e4dc-547b-a3a1-42a976024717",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TreesMid",
+          "persistentUuid": "ccc8554b-46ab-56b8-8fdb-59e207b50736",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "TileCopy",
+              "persistentUuid": "ace04aa0-0ad3-5e4b-ba37-211e15a91cfa",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TreesMid",
+          "persistentUuid": "2f18f524-fb5b-54b5-9952-6be9b39136df",
+          "width": 0,
+          "x": 640,
+          "y": 0,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "TileCopy",
+              "persistentUuid": "3ff2221a-47ed-59ee-ac4e-b52a7e2352bd",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Ground",
+          "persistentUuid": "5378f04a-0b8f-5654-9027-a7b661274bb9",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "TileCopy",
+              "persistentUuid": "b5b32226-2c8a-59d3-bb1c-028c34f1f40c",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Ground",
+          "persistentUuid": "bbcf1273-0d35-55c1-a6fb-f7b45a4e4265",
+          "width": 0,
+          "x": 640,
+          "y": 0,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "TileCopy",
+              "persistentUuid": "83225519-7c60-5337-9840-ddddcbd6f6ed",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Walker",
+          "persistentUuid": "6459bde4-699b-5729-97aa-933ee8a94e67",
+          "width": 0,
+          "x": -48,
+          "y": 109,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SnowStill",
+          "persistentUuid": "03bf6319-76b8-5ce3-bf04-ae598e7b87ef",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "BethlehemStar",
+          "persistentUuid": "f72407a6-ad08-5762-8ce3-ae2537757ec9",
+          "width": 0,
+          "x": 239,
+          "y": 30,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [],
+          "hidden": true
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "name": "SongTime",
+          "persistentUuid": "4efd87eb-d657-59ea-923b-928f40592c62",
+          "width": 0,
+          "x": 2,
+          "y": 2,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "HUD",
+          "name": "CueMarks",
+          "persistentUuid": "df85262c-f4d7-5878-9456-478e1b493cbc",
+          "width": 0,
+          "x": 2,
+          "y": 16,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "Sky",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "adaptCollisionMaskAutomatically": true,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "snow_sky_base.png",
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "points": [],
+                      "hasCustomCollisionMask": false,
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "HillsFar",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "adaptCollisionMaskAutomatically": true,
+          "variables": [
+            {
+              "name": "TileCopy",
+              "persistentUuid": "4be84631-29d8-54ba-ae6d-9d2328f85ef6",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "snow_hills_far_tile.png",
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "points": [],
+                      "hasCustomCollisionMask": false,
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "HillsMid",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "adaptCollisionMaskAutomatically": true,
+          "variables": [
+            {
+              "name": "TileCopy",
+              "persistentUuid": "05a211a8-0949-5500-a168-1ad0f9250e81",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "snow_hills_mid_tile.png",
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "points": [],
+                      "hasCustomCollisionMask": false,
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "TreesMid",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "adaptCollisionMaskAutomatically": true,
+          "variables": [
+            {
+              "name": "TileCopy",
+              "persistentUuid": "a7324c72-61c2-562c-b2f9-f42202d1631e",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "snow_trees_mid_tile.png",
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "points": [],
+                      "hasCustomCollisionMask": false,
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Ground",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "adaptCollisionMaskAutomatically": true,
+          "variables": [
+            {
+              "name": "TileCopy",
+              "persistentUuid": "eaa81f2f-e3f2-5ab0-80a9-21aad6b537ec",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "snow_path_ground_tile.png",
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "points": [],
+                      "hasCustomCollisionMask": false,
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Walker",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "adaptCollisionMaskAutomatically": true,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Walk",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.22,
+                  "sprites": [
+                    {
+                      "image": "01-walk-01-48x56.png",
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "points": [
+                        {
+                          "name": "Pivot",
+                          "x": 24,
+                          "y": 48
+                        }
+                      ],
+                      "hasCustomCollisionMask": false,
+                      "customCollisionMask": []
+                    },
+                    {
+                      "image": "02-walk-02-48x56.png",
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "points": [
+                        {
+                          "name": "Pivot",
+                          "x": 24,
+                          "y": 48
+                        }
+                      ],
+                      "hasCustomCollisionMask": false,
+                      "customCollisionMask": []
+                    },
+                    {
+                      "image": "03-walk-03-48x56.png",
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "points": [
+                        {
+                          "name": "Pivot",
+                          "x": 24,
+                          "y": 48
+                        }
+                      ],
+                      "hasCustomCollisionMask": false,
+                      "customCollisionMask": []
+                    },
+                    {
+                      "image": "02-walk-02-48x56.png",
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "points": [
+                        {
+                          "name": "Pivot",
+                          "x": 24,
+                          "y": 48
+                        }
+                      ],
+                      "hasCustomCollisionMask": false,
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "04-idle-48x56.png",
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "points": [
+                        {
+                          "name": "Pivot",
+                          "x": 24,
+                          "y": 48
+                        }
+                      ],
+                      "hasCustomCollisionMask": false,
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "LookUp",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "05-look-UP-48x56.png",
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "points": [
+                        {
+                          "name": "Pivot",
+                          "x": 24,
+                          "y": 48
+                        }
+                      ],
+                      "hasCustomCollisionMask": false,
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "SnowStill",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "adaptCollisionMaskAutomatically": true,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "snow_verse_static_overlay.png",
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "points": [],
+                      "hasCustomCollisionMask": false,
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "BethlehemStar",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "adaptCollisionMaskAutomatically": true,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "bethlehem_star_scene.png",
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "points": [
+                        {
+                          "name": "Anchor",
+                          "x": 11,
+                          "y": 11
+                        }
+                      ],
+                      "hasCustomCollisionMask": false,
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "SnowFlakeSmall",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "adaptCollisionMaskAutomatically": true,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "snow_flake_small.png",
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "points": [],
+                      "hasCustomCollisionMask": false,
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "SnowFlakeNear",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "adaptCollisionMaskAutomatically": true,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "image": "snow_flake_near.png",
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "points": [],
+                      "hasCustomCollisionMask": false,
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "SongTime",
+          "smoothed": false,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0.00",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 10,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": false,
+            "underlined": false,
+            "text": "0.00",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 10,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "CueMarks",
+          "smoothed": false,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 10,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": false,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 10,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Sky"
+          },
+          {
+            "objectName": "HillsFar"
+          },
+          {
+            "objectName": "HillsMid"
+          },
+          {
+            "objectName": "TreesMid"
+          },
+          {
+            "objectName": "Ground"
+          },
+          {
+            "objectName": "Walker"
+          },
+          {
+            "objectName": "SnowStill"
+          },
+          {
+            "objectName": "BethlehemStar"
+          },
+          {
+            "objectName": "SnowFlakeSmall"
+          },
+          {
+            "objectName": "SnowFlakeNear"
+          },
+          {
+            "objectName": "SongTime"
+          },
+          {
+            "objectName": "CueMarks"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "r": 255,
+            "g": 230,
+            "b": 109,
+            "textR": 0,
+            "textG": 0,
+            "textB": 0
+          },
+          "comment": "Positions and the HUD read MusicChannelPlayingOffset on channel 0. They are not driven by a scene timer. At music time 0, Walker top-left is (-48, 109): one 48px cell off the left edge, so the figure walks in. The centered top-left is (136, 109). Walker moves right at WalkSpeedPxPerSec (20) until X reaches 136, which is 9.2 s of music, then stays there. ScrollSeconds is the music time after that arrival. The Walk cycle (frames 1, 2, 3, 2 at 0.22 s) uses the sprite animation clock. Origin stays the default top-left. Point Pivot is the artist's (24, 48) registration and is not the object origin."
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "r": 255,
+            "g": 230,
+            "b": 109,
+            "textR": 0,
+            "textG": 0,
+            "textB": 0
+          },
+          "comment": "Parallax speeds are starter defaults. The art handoff does not specify any. Far hills 4 px/s, mid hills 8, trees 12, ground 20 (same as the walk, so the path keeps up with the feet). Sky and SnowStill do not scroll. Each scrolling object has two instances, TileCopy 0 at x = 0 and TileCopy 1 at x = 640. Every frame their X is -mod(speed * ScrollSeconds, 640) plus TileCopy * 640, so the pair wraps every 640 px."
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "r": 255,
+            "g": 230,
+            "b": 109,
+            "textR": 0,
+            "textG": 0,
+            "textB": 0
+          },
+          "comment": "TODO, not implemented. Before each chorus: show BethlehemStar (it starts hidden, scale 1, top-left 239,30, point Anchor 11,11), stop Walker on Idle then LookUp, and pan or zoom to the 5x chorus view (120x120, top-left 100,30). When the chorus ends, hide the star and return to Walk. Draft section times are in qa/cues.json and qa/timing-notes.md. Use the music offset, not a scene timer. Falling snow is also TODO: SnowFlakeSmall and SnowFlakeNear have no instances. SnowStill is only the static overlay. The current lyric line is TODO: cues.json is the JSON resource named cues, and copying it into a variable needs the experimental JSON Resource Loading extension (JSONResourceLoader::LoadJSONToVariable). Those cues are an automated draft. Do not edit the timings. Do not import bethlehem_star_chorus.png."
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusicOnChannel"
+              },
+              "parameters": [
+                "",
+                "star-of-bethlehem-2024.ogg",
+                "0",
+                "no",
+                "100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "SongSeconds",
+                "=",
+                "MusicChannelPlayingOffset(0)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ScrollSeconds",
+                "=",
+                "max(0, SongSeconds - (WalkerCenterX - WalkerStartX) / WalkSpeedPxPerSec)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "Walker",
+                "=",
+                "WalkerStartX + min(WalkSpeedPxPerSec * SongSeconds, WalkerCenterX - WalkerStartX)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "SongTime",
+                "Text",
+                "=",
+                "ToString(roundTo(SongSeconds, 2))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "HillsFar",
+                "TileCopy",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "HillsFar",
+                "=",
+                "(-mod(ScrollFarPxPerSec * ScrollSeconds, TilePeriodPx))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "HillsFar",
+                "TileCopy",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "HillsFar",
+                "=",
+                "(-mod(ScrollFarPxPerSec * ScrollSeconds, TilePeriodPx)) + TilePeriodPx"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "HillsMid",
+                "TileCopy",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "HillsMid",
+                "=",
+                "(-mod(ScrollMidPxPerSec * ScrollSeconds, TilePeriodPx))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "HillsMid",
+                "TileCopy",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "HillsMid",
+                "=",
+                "(-mod(ScrollMidPxPerSec * ScrollSeconds, TilePeriodPx)) + TilePeriodPx"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "TreesMid",
+                "TileCopy",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "TreesMid",
+                "=",
+                "(-mod(ScrollTreesPxPerSec * ScrollSeconds, TilePeriodPx))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "TreesMid",
+                "TileCopy",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "TreesMid",
+                "=",
+                "(-mod(ScrollTreesPxPerSec * ScrollSeconds, TilePeriodPx)) + TilePeriodPx"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Ground",
+                "TileCopy",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "Ground",
+                "=",
+                "(-mod(ScrollGroundPxPerSec * ScrollSeconds, TilePeriodPx))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Ground",
+                "TileCopy",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "Ground",
+                "=",
+                "(-mod(ScrollGroundPxPerSec * ScrollSeconds, TilePeriodPx)) + TilePeriodPx"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Space\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MusicPlaying"
+              },
+              "parameters": [
+                "",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "CueMarks",
+                "Text",
+                "=",
+                "CueMarks.Text::Value() + ToString(roundTo(SongSeconds, 2)) + NewLine()"
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "HUD",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    }
+  ],
+  "layoutsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "itemName": "Main"
+      }
+    ]
+  },
+  "externalEvents": [],
+  "externalEventsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalLayoutsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "testsFolderStructure": {
+    "folderName": "__ROOT"
+  }
+}

@@ -1,0 +1,628 @@
+{
+  "version": "snow-star-review-v1",
+  "status": "PROPOSAL_NONFINAL_REVIEW_ARTWORK",
+  "approval_context": "Builder relays Brian chose open snowy navy twilight,sparse evergreens,warm gold star and authorized review artwork;not independently verified by executor. Exact palette,scale,details and closeup choice remain proposed.",
+  "logical_canvas": [
+    320,
+    180
+  ],
+  "review_scale": 6,
+  "review_dimensions": [
+    1920,
+    1080
+  ],
+  "sprite_source": "user-b-reduced-preview",
+  "sprite_cell": [
+    48,
+    56
+  ],
+  "sprite_visible_height": 42,
+  "figure_height_fraction": 0.23333333333333334,
+  "sprite_scene_pivot": [
+    160,
+    157
+  ],
+  "sprite_composite_xy": [
+    136,
+    109
+  ],
+  "sprite_files_unchanged_hashes": {
+    "assets/user-b-reduced-preview/01-walk-01-48x56.png": "08e5ccf225538f4321bb2845104b811537905ed7b5a7dcb0c00351f8a78985c4",
+    "assets/user-b-reduced-preview/05-look-UP-48x56.png": "a3a257c4fce3cb156c5d1757d8129c68ddfe386591550c7eaef10b13dd6d1b24"
+  },
+  "scenery_palette": {
+    "sky": "#111D35",
+    "skyLow": "#182B46",
+    "farShade": "#284661",
+    "farSnow": "#456B85",
+    "farLight": "#5D8298",
+    "treeDark": "#213B50",
+    "treeLight": "#36566A",
+    "treeSnow": "#7698AA",
+    "midSnow": "#82A5B7",
+    "midShade": "#5D849D",
+    "ground": "#BBCFD9",
+    "snow": "#D6E4E8",
+    "path": "#9EBCCB",
+    "nearShade": "#83A6BB",
+    "gold": "#C89737",
+    "goldShade": "#986A29",
+    "goldLight": "#E9C56B",
+    "core": "#FFF1CE"
+  },
+  "palette_note": "18authored scenery colors;source sprite colors retained separately,not requantized",
+  "seams": [
+    {
+      "layer": "far",
+      "first_last_columns_exact": true,
+      "period": 640,
+      "test_size": [
+        1920,
+        180
+      ]
+    },
+    {
+      "layer": "mid",
+      "first_last_columns_exact": true,
+      "period": 640,
+      "test_size": [
+        1920,
+        180
+      ]
+    },
+    {
+      "layer": "trees",
+      "first_last_columns_exact": true,
+      "period": 640,
+      "test_size": [
+        1920,
+        180
+      ]
+    },
+    {
+      "layer": "ground",
+      "first_last_columns_exact": true,
+      "period": 640,
+      "test_size": [
+        1920,
+        180
+      ]
+    }
+  ],
+  "proposed_lyric_quiet_region_xyxy": [
+    80,
+    14,
+    235,
+    82
+  ],
+  "lyric_layout": "not approved;no text rendered",
+  "snow_density": "8single-pixel distant and3two-by-two near flakes in still;placement/density proposed",
+  "star_scene_cell": [
+    24,
+    24
+  ],
+  "star_scene_visible_bbox": [
+    2,
+    2,
+    22,
+    22
+  ],
+  "star_scene_center": [
+    250,
+    41
+  ],
+  "star_chorus_cell": [
+    128,
+    128
+  ],
+  "closeup_alternative": "scene star nearest-neighbor5x=120x120,shown separately;adds no detail",
+  "animation": "all single-frame static assets;no scene cues/timing or scroll rates specified",
+  "assets": [
+    {
+      "id": "snow_sky_base",
+      "file": "snow_sky_base.png",
+      "size": [
+        320,
+        180
+      ],
+      "type": "opaque static sky",
+      "alpha_values": [
+        255
+      ],
+      "bbox": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "pivot": null,
+      "frames": 1
+    },
+    {
+      "id": "snow_hills_far_tile",
+      "file": "snow_hills_far_tile.png",
+      "size": [
+        640,
+        180
+      ],
+      "type": "horizontal repeat640",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "bbox": [
+        0,
+        100,
+        640,
+        180
+      ],
+      "pivot": null,
+      "frames": 1
+    },
+    {
+      "id": "snow_hills_mid_tile",
+      "file": "snow_hills_mid_tile.png",
+      "size": [
+        640,
+        180
+      ],
+      "type": "horizontal repeat640",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "bbox": [
+        0,
+        127,
+        640,
+        180
+      ],
+      "pivot": null,
+      "frames": 1
+    },
+    {
+      "id": "snow_trees_mid_tile",
+      "file": "snow_trees_mid_tile.png",
+      "size": [
+        640,
+        180
+      ],
+      "type": "transparent horizontal repeat640",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "bbox": [
+        12,
+        92,
+        606,
+        142
+      ],
+      "pivot": null,
+      "frames": 1
+    },
+    {
+      "id": "snow_path_ground_tile",
+      "file": "snow_path_ground_tile.png",
+      "size": [
+        640,
+        180
+      ],
+      "type": "horizontal repeat640",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "bbox": [
+        0,
+        141,
+        640,
+        180
+      ],
+      "pivot": null,
+      "frames": 1
+    },
+    {
+      "id": "snow_verse_static_overlay",
+      "file": "snow_verse_static_overlay.png",
+      "size": [
+        320,
+        180
+      ],
+      "type": "transparent still snow placement;not animation",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "bbox": [
+        13,
+        42,
+        303,
+        162
+      ],
+      "pivot": null,
+      "frames": 1
+    },
+    {
+      "id": "snow_flake_small",
+      "file": "snow_flake_small.png",
+      "size": [
+        3,
+        3
+      ],
+      "type": "transparent3x3",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "bbox": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "pivot": null,
+      "frames": 1
+    },
+    {
+      "id": "snow_flake_near",
+      "file": "snow_flake_near.png",
+      "size": [
+        5,
+        5
+      ],
+      "type": "transparent5x5",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "bbox": [
+        2,
+        2,
+        4,
+        4
+      ],
+      "pivot": null,
+      "frames": 1
+    },
+    {
+      "id": "bethlehem_star_scene",
+      "file": "bethlehem_star_scene.png",
+      "size": [
+        24,
+        24
+      ],
+      "type": "transparent original scene star",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "bbox": [
+        2,
+        2,
+        22,
+        22
+      ],
+      "pivot": [
+        11,
+        11
+      ],
+      "frames": 1
+    },
+    {
+      "id": "bethlehem_star_chorus",
+      "file": "bethlehem_star_chorus.png",
+      "size": [
+        128,
+        128
+      ],
+      "type": "transparent separately authored128x128",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "bbox": [
+        10,
+        7,
+        118,
+        122
+      ],
+      "pivot": [
+        63,
+        63
+      ],
+      "frames": 1
+    },
+    {
+      "id": "verse-snow-review",
+      "file": "verse-snow-review.png",
+      "size": [
+        320,
+        180
+      ],
+      "type": "opaque proposed320x180 composition",
+      "alpha_values": [
+        255
+      ],
+      "bbox": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "pivot": null,
+      "frames": 1
+    },
+    {
+      "id": "verse-snow-review-6x",
+      "file": "verse-snow-review-6x.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "type": "nearest-neighbor review enlargement",
+      "alpha_values": [
+        255
+      ],
+      "bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "pivot": null,
+      "frames": 1
+    },
+    {
+      "id": "stop-look-UP-star-review",
+      "file": "stop-look-UP-star-review.png",
+      "size": [
+        320,
+        180
+      ],
+      "type": "opaque proposed320x180 composition",
+      "alpha_values": [
+        255
+      ],
+      "bbox": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "pivot": null,
+      "frames": 1
+    },
+    {
+      "id": "stop-look-UP-star-review-6x",
+      "file": "stop-look-UP-star-review-6x.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "type": "nearest-neighbor review enlargement",
+      "alpha_values": [
+        255
+      ],
+      "bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "pivot": null,
+      "frames": 1
+    },
+    {
+      "id": "chorus-star-designed-review",
+      "file": "chorus-star-designed-review.png",
+      "size": [
+        320,
+        180
+      ],
+      "type": "opaque proposed320x180 study",
+      "alpha_values": [
+        255
+      ],
+      "bbox": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "pivot": null,
+      "frames": 1
+    },
+    {
+      "id": "chorus-star-designed-review-6x",
+      "file": "chorus-star-designed-review-6x.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "type": "nearest-neighbor review enlargement",
+      "alpha_values": [
+        255
+      ],
+      "bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "pivot": null,
+      "frames": 1
+    },
+    {
+      "id": "chorus-star-integer5x-review",
+      "file": "chorus-star-integer5x-review.png",
+      "size": [
+        320,
+        180
+      ],
+      "type": "opaque proposed320x180 integer zoom alternative",
+      "alpha_values": [
+        255
+      ],
+      "bbox": [
+        0,
+        0,
+        320,
+        180
+      ],
+      "pivot": null,
+      "frames": 1
+    },
+    {
+      "id": "chorus-star-integer5x-review-6x",
+      "file": "chorus-star-integer5x-review-6x.png",
+      "size": [
+        1920,
+        1080
+      ],
+      "type": "nearest-neighbor review enlargement",
+      "alpha_values": [
+        255
+      ],
+      "bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "pivot": null,
+      "frames": 1
+    },
+    {
+      "id": "star-options-designed-left-integer-right",
+      "file": "star-options-designed-left-integer-right.png",
+      "size": [
+        640,
+        180
+      ],
+      "type": "comparison;captions in notes only",
+      "alpha_values": [
+        255
+      ],
+      "bbox": [
+        0,
+        0,
+        640,
+        180
+      ],
+      "pivot": null,
+      "frames": 1
+    },
+    {
+      "id": "seam3-far",
+      "file": "seam3-far.png",
+      "size": [
+        1920,
+        180
+      ],
+      "type": "three repeats;transparent seam QA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "bbox": [
+        0,
+        100,
+        1920,
+        180
+      ],
+      "pivot": null,
+      "frames": 1
+    },
+    {
+      "id": "seam3-mid",
+      "file": "seam3-mid.png",
+      "size": [
+        1920,
+        180
+      ],
+      "type": "three repeats;transparent seam QA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "bbox": [
+        0,
+        127,
+        1920,
+        180
+      ],
+      "pivot": null,
+      "frames": 1
+    },
+    {
+      "id": "seam3-trees",
+      "file": "seam3-trees.png",
+      "size": [
+        1920,
+        180
+      ],
+      "type": "three repeats;transparent seam QA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "bbox": [
+        12,
+        92,
+        1886,
+        142
+      ],
+      "pivot": null,
+      "frames": 1
+    },
+    {
+      "id": "seam3-ground",
+      "file": "seam3-ground.png",
+      "size": [
+        1920,
+        180
+      ],
+      "type": "three repeats;transparent seam QA",
+      "alpha_values": [
+        0,
+        255
+      ],
+      "bbox": [
+        0,
+        141,
+        1920,
+        180
+      ],
+      "pivot": null,
+      "frames": 1
+    },
+    {
+      "id": "seam3-combined",
+      "file": "seam3-combined.png",
+      "size": [
+        1920,
+        180
+      ],
+      "type": "opaque3tile scrolling layer composite",
+      "alpha_values": [
+        255
+      ],
+      "bbox": [
+        0,
+        0,
+        1920,
+        180
+      ],
+      "pivot": null,
+      "frames": 1
+    }
+  ],
+  "limits": [
+    "proposed320x180scale,not final output approval",
+    "source sprite soles cropped/alpha estimated;not repaired here",
+    "no GDevelop integration/locomotion or zoom certification",
+    "no claimed historic/geographic Bethlehem setting",
+    "all image enlargement nearest-neighbor,no blur,bloom or anti-aliasing"
+  ]
+}

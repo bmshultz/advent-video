@@ -1,0 +1,347 @@
+{
+  "selection_provenance": "Builder relays Brian selected snowy scene with chunky enlarged RIGHT star,and confirmed GDevelop320x180 scene and object Walker;not independently verified here.",
+  "selected_scene_source": "snow-star-review-v1",
+  "selected_star": "bethlehem_star_scene.png,24x24,integer5x for closeup;NOT bethlehem_star_chorus.png",
+  "scene": [
+    320,
+    180
+  ],
+  "imports": [
+    {
+      "object_name_suggested": "Sky",
+      "path": "/workspace/lyric-video/art/assets/snow-star-review-v1/snow_sky_base.png",
+      "dimensions": [
+        320,
+        180
+      ],
+      "alpha_values": [
+        255
+      ],
+      "opaque": true,
+      "reference_top_left": [
+        0,
+        0
+      ],
+      "depth_suggested": 0,
+      "horizontal_repeat_period": null,
+      "vertical_repeat": false,
+      "bbox_exclusive": [
+        0,
+        0,
+        320,
+        180
+      ]
+    },
+    {
+      "object_name_suggested": "HillsFar",
+      "path": "/workspace/lyric-video/art/assets/snow-star-review-v1/snow_hills_far_tile.png",
+      "dimensions": [
+        640,
+        180
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque": false,
+      "reference_top_left": [
+        0,
+        0
+      ],
+      "depth_suggested": 10,
+      "horizontal_repeat_period": 640,
+      "vertical_repeat": false,
+      "bbox_exclusive": [
+        0,
+        100,
+        640,
+        180
+      ]
+    },
+    {
+      "object_name_suggested": "HillsMid",
+      "path": "/workspace/lyric-video/art/assets/snow-star-review-v1/snow_hills_mid_tile.png",
+      "dimensions": [
+        640,
+        180
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque": false,
+      "reference_top_left": [
+        0,
+        0
+      ],
+      "depth_suggested": 20,
+      "horizontal_repeat_period": 640,
+      "vertical_repeat": false,
+      "bbox_exclusive": [
+        0,
+        127,
+        640,
+        180
+      ]
+    },
+    {
+      "object_name_suggested": "TreesMid",
+      "path": "/workspace/lyric-video/art/assets/snow-star-review-v1/snow_trees_mid_tile.png",
+      "dimensions": [
+        640,
+        180
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque": false,
+      "reference_top_left": [
+        0,
+        0
+      ],
+      "depth_suggested": 30,
+      "horizontal_repeat_period": 640,
+      "vertical_repeat": false,
+      "bbox_exclusive": [
+        12,
+        92,
+        606,
+        142
+      ]
+    },
+    {
+      "object_name_suggested": "Ground",
+      "path": "/workspace/lyric-video/art/assets/snow-star-review-v1/snow_path_ground_tile.png",
+      "dimensions": [
+        640,
+        180
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque": false,
+      "reference_top_left": [
+        0,
+        0
+      ],
+      "depth_suggested": 40,
+      "horizontal_repeat_period": 640,
+      "vertical_repeat": false,
+      "bbox_exclusive": [
+        0,
+        141,
+        640,
+        180
+      ]
+    },
+    {
+      "object_name_suggested": "SnowStill",
+      "path": "/workspace/lyric-video/art/assets/snow-star-review-v1/snow_verse_static_overlay.png",
+      "dimensions": [
+        320,
+        180
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque": false,
+      "reference_top_left": [
+        0,
+        0
+      ],
+      "depth_suggested": 60,
+      "horizontal_repeat_period": null,
+      "vertical_repeat": false,
+      "bbox_exclusive": [
+        13,
+        42,
+        303,
+        162
+      ]
+    },
+    {
+      "object_name_suggested": "BethlehemStar",
+      "path": "/workspace/lyric-video/art/assets/snow-star-review-v1/bethlehem_star_scene.png",
+      "dimensions": [
+        24,
+        24
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque": false,
+      "reference_top_left": [
+        239,
+        30
+      ],
+      "depth_suggested": 70,
+      "horizontal_repeat_period": null,
+      "vertical_repeat": false,
+      "bbox_exclusive": [
+        2,
+        2,
+        22,
+        22
+      ]
+    },
+    {
+      "object_name_suggested": "SnowFlakeSmall",
+      "path": "/workspace/lyric-video/art/assets/snow-star-review-v1/snow_flake_small.png",
+      "dimensions": [
+        3,
+        3
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque": false,
+      "reference_top_left": null,
+      "depth_suggested": 60,
+      "horizontal_repeat_period": null,
+      "vertical_repeat": false,
+      "bbox_exclusive": [
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "object_name_suggested": "SnowFlakeNear",
+      "path": "/workspace/lyric-video/art/assets/snow-star-review-v1/snow_flake_near.png",
+      "dimensions": [
+        5,
+        5
+      ],
+      "alpha_values": [
+        0,
+        255
+      ],
+      "opaque": false,
+      "reference_top_left": null,
+      "depth_suggested": 60,
+      "horizontal_repeat_period": null,
+      "vertical_repeat": false,
+      "bbox_exclusive": [
+        2,
+        2,
+        4,
+        4
+      ]
+    }
+  ],
+  "walker": {
+    "object": "Walker",
+    "files": [
+      "/workspace/lyric-video/art/assets/user-b-reduced-preview/01-walk-01-48x56.png",
+      "/workspace/lyric-video/art/assets/user-b-reduced-preview/02-walk-02-48x56.png",
+      "/workspace/lyric-video/art/assets/user-b-reduced-preview/03-walk-03-48x56.png",
+      "/workspace/lyric-video/art/assets/user-b-reduced-preview/04-idle-48x56.png",
+      "/workspace/lyric-video/art/assets/user-b-reduced-preview/05-look-UP-48x56.png"
+    ],
+    "cell": [
+      48,
+      56
+    ],
+    "reference_top_left": [
+      136,
+      109
+    ],
+    "reference_depth": 50,
+    "local_ground_anchor": [
+      24,
+      48
+    ],
+    "scene_ground_anchor": [
+      160,
+      157
+    ],
+    "lowest_opaque_scene_y": 156,
+    "walk_order": [
+      1,
+      2,
+      3,
+      2
+    ],
+    "beat_ms": 220
+  },
+  "star_reference": {
+    "scene_top_left": [
+      239,
+      30
+    ],
+    "local_custom_anchor": [
+      11,
+      11
+    ],
+    "scene_custom_anchor": [
+      250,
+      41
+    ],
+    "unscaled_cell_center": [
+      251,
+      42
+    ],
+    "closeup_scale": 5,
+    "closeup_rendered_cell": [
+      120,
+      120
+    ],
+    "closeup_reference_top_left": [
+      100,
+      30
+    ],
+    "closeup_scaled_custom_anchor_local": [
+      55,
+      55
+    ],
+    "closeup_reference_custom_anchor_scene": [
+      155,
+      85
+    ],
+    "closeup_reference_cell_center_scene": [
+      160,
+      90
+    ],
+    "alternative_if_custom_anchor_must_be_center160_90_top_left": [
+      105,
+      35
+    ]
+  },
+  "prior_review_hashes": {
+    "assets/snow-star-review-v1/seam3-far.png": "763a89e8218521316595016edb7cc8d1335e35c020b5fe512680b235def752bb",
+    "assets/snow-star-review-v1/manifest.json": "f5edd50dcf6c1b9eb3ee13099e44366e391de274affdbc129cfb2b91962d1526",
+    "assets/snow-star-review-v1/animation-notes.md": "39a0099aebe67be7fb022f8e03bd8fbaf28a6b353414047322777e42c55c6bce",
+    "assets/snow-star-review-v1/handoff.md": "2e2b98a06e28a07fa3b3bcc0dc8562fda8d432723c30ec42bc8b2795a3d17c7c",
+    "assets/snow-star-review-v1/seam3-combined.png": "d2ef02df04b2b18afad69a82b8a78eb150acea03de8a61e75764e8f4d80c7cf2",
+    "assets/snow-star-review-v1/snow_hills_mid_tile.png": "edd571819c0ffa3ab03cdecfcd2f36ea47bd7d44ad3903614786936e33ecf998",
+    "assets/snow-star-review-v1/snow_hills_far_tile.png": "38458fc4592bffc75dd147ae4289c7a7a22afe97db86532decb6609b09514019",
+    "assets/snow-star-review-v1/star-options-designed-left-integer-right.png": "623f4f77fb13eea5ee1b0e0fedc4c182886b0d4be2a4c310581b63776db3ffc9",
+    "assets/snow-star-review-v1/chorus-star-integer5x-review.png": "2e0065c8d120cf2dc491ab37751fae786918aa622a51a141d9be1faade66d37b",
+    "assets/snow-star-review-v1/snow_trees_mid_tile.png": "b8b5f13125d4a885bb179d2ecf509c00c264c069cbcaebce806eafc5a75a7d60",
+    "assets/snow-star-review-v1/seam3-mid.png": "8191aaf5d04b5d996b4a482f1190296bff1ed9dab6efb0408e125b08f7ebaf40",
+    "assets/snow-star-review-v1/chorus-star-integer5x-review-6x.png": "2c412270e8755017d9354e253a2ad1658b25f84bd0f1676125a15836d582a2a1",
+    "assets/snow-star-review-v1/snow_verse_static_overlay.png": "12f41ea99058a5a98bd4dd336a86c7abba5d75ad708e040a019d22b021f36c11",
+    "assets/snow-star-review-v1/snow_flake_small.png": "b5a4b3b80884eb3644e2b65b43becd59ba43996013893e9d0eedc426dab1b9db",
+    "assets/snow-star-review-v1/stop-look-UP-star-review.png": "72c92d7be22753ebb7ba6135fe4ccc8eb1fb5345481653372f0d4e4bf7cedc4b",
+    "assets/snow-star-review-v1/snow_flake_near.png": "9534bb3c4d54d08aabdffa1060ca87353c975e53bd3e44c84a1a0eae4c10cc5b",
+    "assets/snow-star-review-v1/snow_sky_base.png": "4bfda09c9e3080322bc588ef114e017917e80b82409ef2abdc292976d1f3e158",
+    "assets/snow-star-review-v1/snow_path_ground_tile.png": "91dd4e152731829071ad1c7106949157b00f9574da22215e09fb80ed8cd6f2b5",
+    "assets/snow-star-review-v1/chorus-star-designed-review-6x.png": "1cd24b38a9c7f38c86cac54b29315515f7e433449be09eb68eb724d90e24fc43",
+    "assets/snow-star-review-v1/verse-snow-review.png": "6cbf253cba848525307e46dab59271156fe84e9a25b4cdf2e8d258a316ff9b0b",
+    "assets/snow-star-review-v1/seam3-trees.png": "8370f03729f42593dda69bc94d752a774d7425a210bee1dc6e719f23c564ee3a",
+    "assets/snow-star-review-v1/qa-seams.json": "6245d493be6dcab49042e89d11ee69e429ac2778c2ee521c2102e6aa3bcf6e8a",
+    "assets/snow-star-review-v1/stop-look-UP-star-review-6x.png": "65da062aad9abfe096451187e144d49b1f2b81e2886eee7c188c5d183aac2056",
+    "assets/snow-star-review-v1/verse-snow-review-6x.png": "aeaebd2fa4572c3783a0607d9fcc51a4ff533e4fdffaf493f4c1b2cbc5126863",
+    "assets/snow-star-review-v1/bethlehem_star_chorus.png": "7cb70ad61c1d43a68627a0c4de16e21330cb25b0ec9fb4623b86619664e17076",
+    "assets/snow-star-review-v1/bethlehem_star_scene.png": "8ef287d5fa1d3b95e0dc41dab153f7c44435e2ce62c37ae58bd6f24a4b2631d2",
+    "assets/snow-star-review-v1/chorus-star-designed-review.png": "722403318b227c31890162a060b67f3bb2e5a855912e3d76c3bc2a467413cf14",
+    "assets/snow-star-review-v1/seam3-ground.png": "41b20d5803ad52a7264c0fc7362101642ea6e644a9cb226cd6b5e337e9a730f8"
+  },
+  "limitations": "Art mappings/reference coordinates only,builder verifies origins,scaling,filtering,depth,tiling and engine behavior.No motion/sync/export certification."
+}
